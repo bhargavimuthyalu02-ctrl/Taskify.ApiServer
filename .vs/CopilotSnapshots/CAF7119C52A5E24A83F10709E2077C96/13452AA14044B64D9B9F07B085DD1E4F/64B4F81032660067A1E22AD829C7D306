@@ -1,0 +1,52 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Taskify.Model;
+using Taskify.Data.EntityConfigurations;
+
+namespace Taskify.Data
+{
+    public class TaskDbContext : DbContext
+    {
+        public TaskDbContext(DbContextOptions<TaskDbContext> options) : base(options)
+        {
+        }
+
+        public DbSet<TaskItem> Tasks { get; set; } = null!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfiguration(new TaskItemConfiguration());
+        }
+
+        public override int SaveChanges()
+        {
+            UpdateTimestamps();
+            return base.SaveChanges();
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            UpdateTimestamps();
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
+        private void UpdateTimestamps()
+        {
+            var entries = ChangeTracker.Entries<TaskItem>();
+            var utcNow = DateTime.UtcNow;
+            foreach (var entry in entries)
+            {
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Entity.CreatedAt = utcNow;
+                    entry.Entity.UpdatedAt = utcNow;
+                }
+                else if (entry.State == EntityState.Modified)
+                {
+                    entry.Entity.UpdatedAt = utcNow;
+                }
+            }
+        }
+    }
+}

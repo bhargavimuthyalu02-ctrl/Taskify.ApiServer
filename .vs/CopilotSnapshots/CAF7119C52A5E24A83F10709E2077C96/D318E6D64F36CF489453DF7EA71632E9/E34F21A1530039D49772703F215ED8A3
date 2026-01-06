@@ -1,0 +1,122 @@
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Taskify.Model;
+using Taskify.Service;
+
+namespace Taskify.Api.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class TasksController : ControllerBase
+    {
+        private readonly ITaskService _service;
+
+        public TasksController(ITaskService service)
+        {
+            _service = service;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var items = await _service.GetAllAsync();
+            var dtos = items.Select(i => new TaskItemDto
+            {
+                Id = i.Id,
+                Title = i.Title,
+                Description = i.Description,
+                DueDate = i.DueDate,
+                Priority = i.Priority,
+                Status = i.Status,
+                OwnerEmail = i.OwnerEmail
+            });
+            return Ok(dtos);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var item = await _service.GetByIdAsync(id);
+            if (item == null) return NotFound();
+            var dto = new TaskItemDto
+            {
+                Id = item.Id,
+                Title = item.Title,
+                Description = item.Description,
+                DueDate = item.DueDate,
+                Priority = item.Priority,
+                Status = item.Status,
+                OwnerEmail = item.OwnerEmail
+            };
+            return Ok(dto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateTaskDto dto)
+        {
+            var item = new TaskItem
+            {
+                Title = dto.Title,
+                Description = dto.Description,
+                DueDate = dto.DueDate,
+                Priority = dto.Priority,
+                Status = dto.Status,
+                OwnerEmail = dto.OwnerEmail
+            };
+
+            var created = await _service.CreateAsync(item);
+            var createdDto = new TaskItemDto
+            {
+                Id = created.Id,
+                Title = created.Title,
+                Description = created.Description,
+                DueDate = created.DueDate,
+                Priority = created.Priority,
+                Status = created.Status,
+                OwnerEmail = created.OwnerEmail
+            };
+
+            return CreatedAtAction(nameof(GetById), new { id = createdDto.Id }, createdDto);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(Guid id, [FromBody] UpdateTaskDto dto)
+        {
+            if (id != dto.Id) return BadRequest("Id mismatch");
+
+            var item = new TaskItem
+            {
+                Id = dto.Id,
+                Title = dto.Title,
+                Description = dto.Description,
+                DueDate = dto.DueDate,
+                Priority = dto.Priority,
+                Status = dto.Status,
+                OwnerEmail = dto.OwnerEmail
+            };
+
+            var updated = await _service.UpdateAsync(item);
+            var updatedDto = new TaskItemDto
+            {
+                Id = updated.Id,
+                Title = updated.Title,
+                Description = updated.Description,
+                DueDate = updated.DueDate,
+                Priority = updated.Priority,
+                Status = updated.Status,
+                OwnerEmail = updated.OwnerEmail
+            };
+
+            return Ok(updatedDto);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await _service.DeleteAsync(id);
+            return NoContent();
+        }
+    }
+}

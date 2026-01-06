@@ -1,0 +1,545 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Adobe\\Taskify.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\controllers\\dtos\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\controllers\\dtos\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|c:\\adobe\\taskify.api\\taskify.model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|solutionrelative:taskify.model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105152526_addingroleforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105152526_addingroleforuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|c:\\adobe\\taskify.api\\taskify.model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|solutionrelative:taskify.model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\entityconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\entityconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\entityconfigurations\\taskitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\entityconfigurations\\taskitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105141241_copilotchangeupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105141241_copilotchangeupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105143614_emailaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105143614_emailaddressattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260106_addtimestampstotasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260106_addtimestampstotasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105134140_changingtasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105134140_changingtasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105133634_updaeingtasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105133634_updaeingtasktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260106_addowneremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260106_addowneremail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\migrations\\20260105132326_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\migrations\\20260105132326_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\validators\\updatetaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\validators\\updatetaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\validators\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\validators\\createtaskdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\taskify.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\taskify.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\taskify.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\taskify.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|c:\\adobe\\taskify.api\\taskify.model\\taskify.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|solutionrelative:taskify.model\\taskify.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\taskify.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\taskify.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|c:\\adobe\\taskify.api\\taskify.model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|solutionrelative:taskify.model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Program.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Program.cs",
+              "RelativeToolTip": "Taskify.Api\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:16:26.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Taskify.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:29:09.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Taskify.Api\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:16:37.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Taskify.Model\\TaskItem.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\TaskItem.cs",
+              "RelativeToolTip": "Taskify.Model\\TaskItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T12:55:12.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskDtos.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\DTOs\\TaskDtos.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Controllers\\DTOs\\TaskDtos.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\DTOs\\TaskDtos.cs",
+              "RelativeToolTip": "Taskify.Api\\Controllers\\DTOs\\TaskDtos.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:34:30.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskDbContext.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\TaskDbContext.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\TaskDbContext.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\TaskDbContext.cs",
+              "RelativeToolTip": "Taskify.Data\\TaskDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:07:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\UserRepository.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\UserRepository.cs",
+              "RelativeToolTip": "Taskify.Data\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:27:40.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "Taskify.Service\\IUserService.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\IUserService.cs",
+              "RelativeToolTip": "Taskify.Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:28:03.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Taskify.Service\\UserService.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\UserService.cs",
+              "RelativeToolTip": "Taskify.Service\\UserService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:28:34.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260105152526_AddingRoleForUser.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105152526_AddingRoleForUser.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105152526_AddingRoleForUser.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105152526_AddingRoleForUser.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105152526_AddingRoleForUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:25:26.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\IUserRepository.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\IUserRepository.cs",
+              "RelativeToolTip": "Taskify.Data\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:27:04.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\User.cs",
+              "RelativeDocumentMoniker": "Taskify.Model\\User.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\User.cs",
+              "RelativeToolTip": "Taskify.Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:23:16.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\EntityConfigurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\EntityConfigurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\EntityConfigurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Taskify.Data\\EntityConfigurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:17:31.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "Taskify.Service\\TaskService.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\TaskService.cs",
+              "RelativeToolTip": "Taskify.Service\\TaskService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:16:18.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\EntityConfigurations\\TaskItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\EntityConfigurations\\TaskItemConfiguration.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\EntityConfigurations\\TaskItemConfiguration.cs",
+              "RelativeToolTip": "Taskify.Data\\EntityConfigurations\\TaskItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:15:58.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260105141241_CopilotChangeUpdate.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105141241_CopilotChangeUpdate.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105141241_CopilotChangeUpdate.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105141241_CopilotChangeUpdate.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105141241_CopilotChangeUpdate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:12:41.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260105143614_EmailAddressattribute.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105143614_EmailAddressattribute.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105143614_EmailAddressattribute.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105143614_EmailAddressattribute.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105143614_EmailAddressattribute.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwEQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:36:14.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260106_AddTimestampsToTasks.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260106_AddTimestampsToTasks.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260106_AddTimestampsToTasks.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260106_AddTimestampsToTasks.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260106_AddTimestampsToTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:51:20.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260105134140_ChangingTaskTable.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105134140_ChangingTaskTable.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105134140_ChangingTaskTable.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105134140_ChangingTaskTable.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105134140_ChangingTaskTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:41:40.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260105133634_UpdaeingTaskTable.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105133634_UpdaeingTaskTable.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105133634_UpdaeingTaskTable.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105133634_UpdaeingTaskTable.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105133634_UpdaeingTaskTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:36:35.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260106_AddOwnerEmail.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260106_AddOwnerEmail.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260106_AddOwnerEmail.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260106_AddOwnerEmail.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260106_AddOwnerEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:33:17.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260105132326_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105132326_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Migrations\\20260105132326_InitialCreate.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Migrations\\20260105132326_InitialCreate.cs",
+              "RelativeToolTip": "Taskify.Data\\Migrations\\20260105132326_InitialCreate.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:31:06.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Taskify.Service\\ITaskService.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\ITaskService.cs",
+              "RelativeToolTip": "Taskify.Service\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:16:02.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateTaskDtoValidator.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Validators\\UpdateTaskDtoValidator.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Validators\\UpdateTaskDtoValidator.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Validators\\UpdateTaskDtoValidator.cs",
+              "RelativeToolTip": "Taskify.Api\\Validators\\UpdateTaskDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:21:47.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateTaskDtoValidator.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Validators\\CreateTaskDtoValidator.cs",
+              "RelativeDocumentMoniker": "Taskify.Api\\Validators\\CreateTaskDtoValidator.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Validators\\CreateTaskDtoValidator.cs",
+              "RelativeToolTip": "Taskify.Api\\Validators\\CreateTaskDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:21:43.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Taskify.Service.csproj",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\Taskify.Service.csproj",
+              "RelativeDocumentMoniker": "Taskify.Service\\Taskify.Service.csproj",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\Taskify.Service.csproj",
+              "RelativeToolTip": "Taskify.Service\\Taskify.Service.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-05T12:52:52.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Taskify.Data.csproj",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Taskify.Data.csproj",
+              "RelativeDocumentMoniker": "Taskify.Data\\Taskify.Data.csproj",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Taskify.Data.csproj",
+              "RelativeToolTip": "Taskify.Data\\Taskify.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-05T12:52:45.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Taskify.Model.csproj",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\Taskify.Model.csproj",
+              "RelativeDocumentMoniker": "Taskify.Model\\Taskify.Model.csproj",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\Taskify.Model.csproj",
+              "RelativeToolTip": "Taskify.Model\\Taskify.Model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-05T12:48:27.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Taskify.Api.csproj",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Taskify.Api.csproj",
+              "RelativeDocumentMoniker": "Taskify.Api\\Taskify.Api.csproj",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Taskify.Api.csproj",
+              "RelativeToolTip": "Taskify.Api\\Taskify.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-05T12:43:53.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Taskify.Data\\Class1.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Class1.cs",
+              "RelativeToolTip": "Taskify.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T12:46:59.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\Class1.cs",
+              "RelativeDocumentMoniker": "Taskify.Model\\Class1.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Model\\Class1.cs",
+              "RelativeToolTip": "Taskify.Model\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T12:46:18.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "Taskify.Service\\Class1.cs",
+              "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\Class1.cs",
+              "RelativeToolTip": "Taskify.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T12:43:47.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

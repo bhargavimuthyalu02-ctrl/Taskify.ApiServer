@@ -1,0 +1,11 @@
+C:\Adobe\Taskify.Api\Taskify.Model\bin\Debug\net8.0\Taskify.Model.deps.json
+C:\Adobe\Taskify.Api\Taskify.Model\bin\Debug\net8.0\Taskify.Model.dll
+C:\Adobe\Taskify.Api\Taskify.Model\bin\Debug\net8.0\Taskify.Model.pdb
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.AssemblyInfoInputs.cache
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.AssemblyInfo.cs
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.csproj.CoreCompileInputs.cache
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.dll
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\refint\Taskify.Model.dll
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.pdb
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\ref\Taskify.Model.dll

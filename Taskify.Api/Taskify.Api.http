@@ -1,0 +1,46 @@
+@Taskify.Api_HostAddress = http://localhost:5014
+
+### Get all tasks
+GET {{Taskify.Api_HostAddress}}/api/tasks
+Accept: application/json
+
+### Get task by id
+GET {{Taskify.Api_HostAddress}}/api/tasks/{{taskId}}
+Accept: application/json
+
+### Create task
+POST {{Taskify.Api_HostAddress}}/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Sample task",
+  "description": "This is a sample task",
+  "dueDate": "2026-01-31T12:00:00Z",
+  "priority": 1,
+  "status": 0,
+  "ownerEmail": "user@example.com"
+}
+
+### Update task
+PUT {{Taskify.Api_HostAddress}}/api/tasks/{{taskId}}
+Content-Type: application/json
+
+{
+  "id": "{{taskId}}",
+  "title": "Updated task",
+  "description": "Updated description",
+  "dueDate": "2026-02-15T12:00:00Z",
+  "priority": 2,
+  "status": 0,
+  "ownerEmail": "user@example.com"
+}
+
+### Delete task
+DELETE {{Taskify.Api_HostAddress}}/api/tasks/{{taskId}}
+
+###
+
+````````
+
+
+# Response

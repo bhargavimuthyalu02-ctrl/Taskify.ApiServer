@@ -1,0 +1,17 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Taskify.Model;
+
+namespace Taskify.Data.EntityConfigurations
+{
+    internal class TaskItemConfiguration : IEntityTypeConfiguration<TaskItem>
+    {
+        public void Configure(EntityTypeBuilder<TaskItem> builder)
+        {
+            builder.HasKey(e => e.Id);
+            builder.Property(e => e.Title).IsRequired().HasMaxLength(200);
+            builder.Property(e => e.Description).HasMaxLength(2000);
+            builder.Property(e => e.UserEmail).HasMaxLength(200);
+        }
+    }
+}
