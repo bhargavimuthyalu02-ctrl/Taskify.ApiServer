@@ -35,13 +35,16 @@ namespace Taskify.Api
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
 
-            // CORS - allow Angular dev server by default
+            // CORS - allow Angular and React dev servers
             var angularDevOrigin = "http://localhost:4200";
+            var reactDevOrigin = "http://localhost:5173";
+
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAngularDev", policy =>
+                // Combined policy for all local dev origins
+                options.AddPolicy("AllowLocalDev", policy =>
                 {
-                    policy.WithOrigins(angularDevOrigin)
+                    policy.WithOrigins(angularDevOrigin, reactDevOrigin)
                           .AllowAnyHeader()
                           .AllowAnyMethod()
                           .AllowCredentials();
@@ -92,8 +95,8 @@ namespace Taskify.Api
 
             app.UseHttpsRedirection();
 
-            // Use CORS before authentication
-            app.UseCors("AllowAngularDev");
+            // Use CORS before authentication - allows both Angular and React
+            app.UseCors("AllowLocalDev");
 
             app.UseAuthentication();
             app.UseAuthorization();

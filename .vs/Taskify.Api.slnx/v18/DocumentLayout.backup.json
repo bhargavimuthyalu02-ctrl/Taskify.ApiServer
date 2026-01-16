@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Adobe\\Taskify.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|c:\\adobe\\taskify.api\\taskify.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F1EF079-96D6-7A07-A872-90F81C61DA4C}|Taskify.Service\\Taskify.Service.csproj|solutionrelative:taskify.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|c:\\adobe\\taskify.api\\taskify.data\\taskify.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3CF033A8-68D6-1DCC-7A66-B0B6F745D4E2}|Taskify.Data\\Taskify.Data.csproj|solutionrelative:taskify.data\\taskify.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|c:\\adobe\\taskify.api\\taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9FCA4F-3C05-599B-4CDE-55A5E01A2A39}|Taskify.Api\\Taskify.Api.csproj|solutionrelative:taskify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E24CA090-2899-26DC-E72E-890D00BA35AA}|Taskify.Model\\Taskify.Model.csproj|c:\\adobe\\taskify.api\\taskify.model\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Taskify.Data.csproj",
               "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\Taskify.Data.csproj",
               "RelativeDocumentMoniker": "Taskify.Data\\Taskify.Data.csproj",
@@ -191,26 +191,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\UserService.cs",
               "RelativeDocumentMoniker": "Taskify.Service\\UserService.cs",
               "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Service\\UserService.cs",
               "RelativeToolTip": "Taskify.Service\\UserService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwFAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T15:28:34.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Program.cs",
               "RelativeDocumentMoniker": "Taskify.Api\\Program.cs",
               "ToolTip": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Program.cs",
               "RelativeToolTip": "Taskify.Api\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T13:16:26.253Z",
               "EditorCaption": ""
@@ -229,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Api\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Taskify.Api\\Controllers\\TasksController.cs",
@@ -242,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskDbContext.cs",
               "DocumentMoniker": "C:\\Adobe\\Taskify.Api\\Taskify.Data\\TaskDbContext.cs",
               "RelativeDocumentMoniker": "Taskify.Data\\TaskDbContext.cs",
