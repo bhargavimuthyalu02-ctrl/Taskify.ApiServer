@@ -15,3 +15,4 @@ C:\Adobe\Taskify.Api\Taskify.Service\obj\Debug\net8.0\Taskify.Service.dll
 C:\Adobe\Taskify.Api\Taskify.Service\obj\Debug\net8.0\refint\Taskify.Service.dll
 C:\Adobe\Taskify.Api\Taskify.Service\obj\Debug\net8.0\Taskify.Service.pdb
 C:\Adobe\Taskify.Api\Taskify.Service\obj\Debug\net8.0\ref\Taskify.Service.dll
+C:\Adobe\Taskify.Api\Taskify.Service\obj\Debug\net8.0\Taskify.Service.sourcelink.json

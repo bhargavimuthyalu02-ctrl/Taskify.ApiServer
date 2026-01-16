@@ -79,7 +79,7 @@ namespace Taskify.Service
 
         private static bool VerifyPassword(string password, string hashed)
         {
-            return HashPassword(password) == hashed;
+            return password == hashed;
         }
     }
 }

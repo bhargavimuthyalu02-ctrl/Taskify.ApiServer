@@ -15,3 +15,4 @@ C:\Adobe\Taskify.Api\Taskify.Data\obj\Debug\net8.0\refint\Taskify.Data.dll
 C:\Adobe\Taskify.Api\Taskify.Data\obj\Debug\net8.0\Taskify.Data.pdb
 C:\Adobe\Taskify.Api\Taskify.Data\obj\Debug\net8.0\Taskify.Data.genruntimeconfig.cache
 C:\Adobe\Taskify.Api\Taskify.Data\obj\Debug\net8.0\ref\Taskify.Data.dll
+C:\Adobe\Taskify.Api\Taskify.Data\obj\Debug\net8.0\Taskify.Data.sourcelink.json

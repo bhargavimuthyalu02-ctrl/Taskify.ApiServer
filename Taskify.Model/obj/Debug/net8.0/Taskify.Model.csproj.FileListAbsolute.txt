@@ -5,6 +5,7 @@ C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.GeneratedMSBui
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.AssemblyInfoInputs.cache
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.AssemblyInfo.cs
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.csproj.CoreCompileInputs.cache
+C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.sourcelink.json
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.dll
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\refint\Taskify.Model.dll
 C:\Adobe\Taskify.Api\Taskify.Model\obj\Debug\net8.0\Taskify.Model.pdb

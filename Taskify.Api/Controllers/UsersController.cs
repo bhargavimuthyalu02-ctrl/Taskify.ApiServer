@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Taskify.Service;
 using Taskify.Api.Controllers;
+using Taskify.Api.Controllers.DTOs;
 
 namespace Taskify.Api.Controllers
 {
@@ -31,16 +32,5 @@ namespace Taskify.Api.Controllers
         }
     }
 
-    public class RegisterDto
-    {
-        public string UserEmail { get; set; } = default!;
-        public string Password { get; set; } = default!;
-        public string? Role { get; set; }
-    }
-
-    public class LoginDto
-    {
-        public string UserEmail { get; set; } = default!;
-        public string Password { get; set; } = default!;
-    }
+ 
 }
