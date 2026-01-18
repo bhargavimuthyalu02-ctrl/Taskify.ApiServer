@@ -11,6 +11,7 @@ namespace Taskify.Data.EntityConfigurations
             builder.HasKey(u => u.Id);
             builder.Property(u => u.UserEmail).IsRequired().HasMaxLength(200);
             builder.Property(u => u.Password).IsRequired().HasMaxLength(500);
+            builder.Property(u => u.Role).IsRequired().HasMaxLength(50);
             builder.Property(u => u.CreatedAt).HasDefaultValueSql("GETUTCDATE()").ValueGeneratedOnAdd();
 
             builder.ToTable("Users");

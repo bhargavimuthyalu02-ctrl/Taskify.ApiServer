@@ -150,5 +150,5 @@ C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\refint\Taskify.Api.dll
 C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\Taskify.Api.pdb
 C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\Taskify.Api.genruntimeconfig.cache
 C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\ref\Taskify.Api.dll
-C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\Taskify.Api.sourcelink.json
+C:\Adobe\Taskify.Api\Taskify.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

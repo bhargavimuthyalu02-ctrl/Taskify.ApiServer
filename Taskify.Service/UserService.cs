@@ -31,7 +31,7 @@ namespace Taskify.Service
             {
                 Id = Guid.NewGuid(),
                 UserEmail = email,
-                Password = HashPassword(password),
+                Password = password,
                 CreatedAt = DateTime.UtcNow,
                 Role = role
             };

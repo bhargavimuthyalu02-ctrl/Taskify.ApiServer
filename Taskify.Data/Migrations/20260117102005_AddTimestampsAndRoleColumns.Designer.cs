@@ -12,8 +12,8 @@ using Taskify.Data;
 namespace Taskify.Data.Migrations
 {
     [DbContext(typeof(TaskDbContext))]
-    [Migration("20260105152526_AddingRoleForUser")]
-    partial class AddingRoleForUser
+    [Migration("20260117102005_AddTimestampsAndRoleColumns")]
+    partial class AddTimestampsAndRoleColumns
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -87,7 +87,8 @@ namespace Taskify.Data.Migrations
 
                     b.Property<string>("Role")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("UserEmail")
                         .IsRequired()
