@@ -18,6 +18,13 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
+# Angular cache
+.angular/
+. angular/cache/
+
+# Node modules and build artifacts
+node_modules/
+dist/
 
 # Generated build files
 assemblyReference.cache
